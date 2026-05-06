@@ -1,0 +1,14 @@
+DECLARE studentName,Result AS STRING
+DECLARE score AS INTEGER
+
+START
+INPUT studentName
+IF score  >= 50
+   PRINT "Student Name: " + studentName
+   PRINT "Result: Pass"
+ELSE
+   PRINT "Student Name: " + studentName
+   PRINT "Result: Fail"
+END IF
+PRINT "Thank you for using the portal"
+END
