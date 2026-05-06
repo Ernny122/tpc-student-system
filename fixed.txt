@@ -1,6 +1,7 @@
 DECLARE studentName,Result AS STRING
 DECLARE score AS INTEGER
-
+SET studentName,Result TO ""
+SET score TO 0
 START
 INPUT studentName
 IF score  >= 50
